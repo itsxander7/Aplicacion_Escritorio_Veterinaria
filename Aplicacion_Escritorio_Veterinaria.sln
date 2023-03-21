@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL_Aplicacion_Escritorio_V
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PL_Aplicacion_Escritorio_Veterinaria", "PL_Aplicacion_Escritorio_Veterinaria\PL_Aplicacion_Escritorio_Veterinaria.csproj", "{0B986C69-617C-4954-8063-AC2BDCA4B599}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BD_Prueba", "BD_Prueba\BD_Prueba.csproj", "{4B44E2F2-6B4C-4940-A288-E69E876EC27D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp2", "WindowsFormsApp2\WindowsFormsApp2.csproj", "{69914225-B2E2-4FA6-8C97-3230CD35BD92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{0B986C69-617C-4954-8063-AC2BDCA4B599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B986C69-617C-4954-8063-AC2BDCA4B599}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B986C69-617C-4954-8063-AC2BDCA4B599}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4B44E2F2-6B4C-4940-A288-E69E876EC27D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4B44E2F2-6B4C-4940-A288-E69E876EC27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4B44E2F2-6B4C-4940-A288-E69E876EC27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4B44E2F2-6B4C-4940-A288-E69E876EC27D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69914225-B2E2-4FA6-8C97-3230CD35BD92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69914225-B2E2-4FA6-8C97-3230CD35BD92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69914225-B2E2-4FA6-8C97-3230CD35BD92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69914225-B2E2-4FA6-8C97-3230CD35BD92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

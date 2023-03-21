@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prueba
+namespace WindowsFormsApp2
 {
-    class Class2
+    class Pruebafinal
     {
     }
 }
