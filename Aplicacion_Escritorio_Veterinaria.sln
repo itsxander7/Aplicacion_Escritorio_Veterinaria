@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp2", "Windows
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp3", "WindowsFormsApp3\WindowsFormsApp3.csproj", "{3F624DC3-64C0-4185-89DB-00ACEAAE4B4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Final", "Final\Final.csproj", "{E6E7E4C4-1BA5-458D-A743-FB929E4D6A5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalActualizado", "Final\FinalActualizado.csproj", "{E6E7E4C4-1BA5-458D-A743-FB929E4D6A5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
