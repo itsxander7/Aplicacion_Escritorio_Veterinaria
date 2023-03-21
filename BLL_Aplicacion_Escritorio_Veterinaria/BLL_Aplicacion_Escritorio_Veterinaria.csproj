@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BBDD\cls_BBDD_BLL.cs" />
+    <Compile Include="BBDD\DBA.cs" />
     <Compile Include="Catalogos\cls_EntradaArticulos_BLL.cs" />
     <Compile Include="Catalogos\cls_EntradaExpediente_BLL.cs" />
     <Compile Include="Catalogos\cls_IngresoServicios_BLL.cs" />
