@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0B986C69-617C-4954-8063-AC2BDCA4B599}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PL_Aplicacion_Escritorio_Veterinaria</RootNamespace>
+    <AssemblyName>PL_Aplicacion_Escritorio_Veterinaria</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pantallas\frm_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\frm_Principal.Designer.cs">
+      <DependentUpon>frm_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Entrada_Articulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Entrada_Articulos.Designer.cs">
+      <DependentUpon>frm_Entrada_Articulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Entrada_Expediente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Entrada_Expediente.Designer.cs">
+      <DependentUpon>frm_Entrada_Expediente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Ingreso_Servicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Ingreso_Servicios.Designer.cs">
+      <DependentUpon>frm_Ingreso_Servicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Login.Designer.cs">
+      <DependentUpon>frm_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Maestro_Articulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Maestro_Articulos.Designer.cs">
+      <DependentUpon>frm_Maestro_Articulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Modulo_Mantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Modulo_Mantenimiento.Designer.cs">
+      <DependentUpon>frm_Modulo_Mantenimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Modulo_Reportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Modulo_Reportes.Designer.cs">
+      <DependentUpon>frm_Modulo_Reportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Registro_Socios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Registro_Socios.Designer.cs">
+      <DependentUpon>frm_Registro_Socios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Registro_Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Registro_Usuarios.Designer.cs">
+      <DependentUpon>frm_Registro_Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Venta_Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Listar\frm_Venta_Productos.Designer.cs">
+      <DependentUpon>frm_Venta_Productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Pantallas\frm_Principal.resx">
+      <DependentUpon>frm_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Listar\frm_Entrada_Articulos.resx">
+      <DependentUpon>frm_Entrada_Articulos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Listar\frm_Entrada_Expediente.resx">
+      <DependentUpon>frm_Entrada_Expediente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Listar\frm_Ingreso_Servicios.resx">
+      <DependentUpon>frm_Ingreso_Servicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Listar\frm_Login.resx">
+      <DependentUpon>frm_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Listar\frm_Maestro_Articulos.resx">
+      <DependentUpon>frm_Maestro_Articulos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Listar\frm_Modulo_Mantenimiento.resx">
+      <DependentUpon>frm_Modulo_Mantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Listar\frm_Modulo_Reportes.resx">
+      <DependentUpon>frm_Modulo_Reportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Listar\frm_Registro_Socios.resx">
+      <DependentUpon>frm_Registro_Socios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Listar\frm_Registro_Usuarios.resx">
+      <DependentUpon>frm_Registro_Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pantallas\Listar\frm_Venta_Productos.resx">
+      <DependentUpon>frm_Venta_Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL_Aplicacion_Escritorio_Veterinaria\BLL_Aplicacion_Escritorio_Veterinaria.csproj">
+      <Project>{c522c5b4-e086-4f3b-b0f1-dd2f54543018}</Project>
+      <Name>BLL_Aplicacion_Escritorio_Veterinaria</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL_Aplicacion_Escritorio_Veterinaria\DAL_Aplicacion_Escritorio_Veterinaria.csproj">
+      <Project>{d36185d3-5a73-4be7-a451-5bb19bb77ad0}</Project>
+      <Name>DAL_Aplicacion_Escritorio_Veterinaria</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Recursos\Iconos\Buscar-icon.png" />
+    <Content Include="Recursos\Iconos\Eliminar-icon.png" />
+    <Content Include="Recursos\Iconos\Guardar-icon.png" />
+    <Content Include="Recursos\Iconos\Modificar-icon.png" />
+    <Content Include="Recursos\Iconos\New-icon.png" />
+    <Content Include="Recursos\Iconos\Refresh-icon.png" />
+    <Content Include="Recursos\Iconos\Salir-icon.png" />
+    <Content Include="Recursos\Iconos\upload_arrow_harddisk_1533.ico" />
+    <Content Include="Recursos\Imagenes\3d-cube.png" />
+    <Content Include="Recursos\Imagenes\3d-cubes.png" />
+    <Content Include="Recursos\Imagenes\Analitica.png" />
+    <Content Include="Recursos\Imagenes\Articulos.png" />
+    <Content Include="Recursos\Imagenes\Compras.png" />
+    <Content Include="Recursos\Imagenes\Expediente.png" />
+    <Content Include="Recursos\Imagenes\Expedientes.png" />
+    <Content Include="Recursos\Imagenes\Facturacion.png" />
+    <Content Include="Recursos\Imagenes\icons8-bloquear-64.png" />
+    <Content Include="Recursos\Imagenes\icons8-mascotas-64.png" />
+    <Content Include="Recursos\Imagenes\icons8-usuario-60.png" />
+    <Content Include="Recursos\Imagenes\icons8-usuario-masculino-en-círculo-64.png" />
+    <Content Include="Recursos\Imagenes\Invoice.png" />
+    <Content Include="Recursos\Imagenes\limpieza-de-datos.png" />
+    <Content Include="Recursos\Imagenes\llave-inteligente.png" />
+    <Content Include="Recursos\Imagenes\Mantenimiento.png" />
+    <Content Include="Recursos\Imagenes\modulesy.png" />
+    <Content Include="Recursos\Imagenes\modulos.png" />
+    <Content Include="Recursos\Imagenes\Otros modulos.png" />
+    <Content Include="Recursos\Imagenes\proteger.png" />
+    <Content Include="Recursos\Imagenes\Salida.png" />
+    <Content Include="Recursos\Imagenes\Socios.png" />
+    <Content Include="Recursos\Imagenes\Usuario.png" />
+    <Content Include="Recursos\Imagenes\veterinary-clinic-cartoon-advertisement-vector.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
